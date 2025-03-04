@@ -14,7 +14,7 @@ blockquote {
 
 body {
   background-color: #1e1e1e;
-  font-family: "inter", Arial, Helvetica, sans-serif;
+  font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
 }
 
 .content-section {
@@ -93,7 +93,7 @@ footer {
 .cover__title {
   display: flex;
   flex-direction: column;
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 100%;
@@ -113,14 +113,14 @@ footer {
 
 .intro__heading {
   display: flex;
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
 }
 
 .intro__title {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -128,7 +128,7 @@ footer {
 
 .intro__date {
   white-space: nowrap;
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -145,7 +145,7 @@ footer {
 .content-section__subtitle {
   display: flex;
   flex-direction: column;
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
@@ -153,7 +153,7 @@ footer {
 
 .content-section__introduction {
   padding-top: 32px;
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 135%;
@@ -166,7 +166,7 @@ footer {
 }
 
 .content-section__list-accent {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 700;
 }
 
@@ -176,6 +176,7 @@ ul {
 
 li {
   padding: 0;
+  list-style-type: none;
 }
 
 ol.footer__menu-item {
@@ -184,7 +185,7 @@ ol.footer__menu-item {
 .content-section__list-item {
   padding-left: 0px;
   padding-top: 16px;
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -209,7 +210,7 @@ ol.footer__menu-item {
 }
 
 .card {
-  border-radius: 30px;
+  border-radius: 10%;
   padding: 20px;
 }
 
@@ -227,13 +228,13 @@ ol.footer__menu-item {
   padding-bottom: 8px;
 }
 .card__author-name {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 16px;
   padding-bottom: 8px;
 }
 .card__title {
-  font-family: "EB Garamond";
+  font-family: 'EB Garamond', 'Arial', sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 135%;
@@ -241,10 +242,15 @@ ol.footer__menu-item {
 }
 
 .card__text {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav_footer {
@@ -253,7 +259,7 @@ ol.footer__menu-item {
 }
 
 .footer__copy {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 135%;
@@ -266,8 +272,13 @@ ol.footer__menu-item {
 }
 
 .footer__menu-item {
-  font-family: "inter";
+  font-family: 'inter', 'Arial', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 125%;
+}
+
+.footer__menu-item_link {
+  text-decoration: none;
+  color: #f5f5f5;
 }
