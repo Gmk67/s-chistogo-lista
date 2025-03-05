@@ -1,0 +1,284 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
+}
+
+.content-section {
+  margin: auto;
+  width: 360px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px 24px 20px;
+}
+
+.cover {
+  padding-top: 7px;
+  padding-left: 20px;
+  min-height: 100%;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 94% auto;
+  background-position: right bottom;
+}
+
+.intro {
+  padding: 30px 20px 38px 20px;
+}
+
+.reason {
+  padding: 40px 20px;
+}
+.how-to {
+  padding: 40px 20px 60px;
+}
+footer {
+  border-top: 1px solid #fee42a;
+  padding: 20px;
+}
+
+.header__logo-image {
+  width: 79px;
+  height: 16px;
+}
+
+.header__menu {
+  display: flex;
+  list-style: none;
+}
+
+.header__menu_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.header__menu-link {
+  color: #f5f5f5;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.accent-span {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro__heading {
+  display: flex;
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.intro__title {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.intro__date {
+  white-space: nowrap;
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  gap: 24px;
+  line-height: 135%;
+}
+
+.content-section__subtitle {
+  display: flex;
+  flex-direction: column;
+  font-family: 'EB Garamond', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  padding-top: 32px;
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+}
+
+.content-section__list-accent {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+li {
+  padding: 0;
+  list-style-type: none;
+}
+
+ol.footer__menu-item {
+  padding: 0;
+}
+.content-section__list-item {
+  padding-left: 0px;
+  padding-top: 16px;
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 32px;
+  padding-left: 0px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #fee42a;
+}
+
+.card {
+  border-radius: 10%;
+  padding: 20px;
+}
+
+.card_text-only {
+  color: #131313;
+}
+
+.card_content {
+  padding-top: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 8px;
+}
+.card__author-name {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+.card__title {
+  font-family: 'EB Garamond', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+  padding-bottom: 8px;
+}
+
+.card__text {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copy {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 135%;
+}
+.footer__links {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 16px;
+}
+
+.footer__menu-item {
+  font-family: 'inter', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.footer__menu-item_link {
+  text-decoration: none;
+  color: #f5f5f5;
+}
